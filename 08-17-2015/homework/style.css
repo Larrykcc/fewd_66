@@ -1,0 +1,17 @@
+body {
+	background-color: #B6FF90;
+}
+header {
+	color: red;
+	font-size: 30px;
+}
+
+section {
+	color: green;
+	font-size: 30px;
+}
+
+footer {
+	color: purple;
+	font-size: 30px;
+}
