@@ -1,0 +1,109 @@
+body {
+  background-image: url('http://i.imgur.com/NpCIlfM.jpg');
+  background-attachment: fixed;
+}
+
+#title {
+  color: white;
+  font-size: 60pt;
+  text-align: center;
+  font-family: 'ABeeZee', sans-serif;
+  letter-spacing: 11pt;
+  margin: 60pt;
+}
+
+img {
+  display: block;
+  margin: 20pt auto 50pt auto;
+  border: 2px solid white;
+  border-radius: 10pt;
+}
+
+#menu {
+  text-align: center;
+  padding: 0px;
+  margin: auto;
+  width: 540px;
+}
+
+#menu li {
+  display: inline;
+}
+
+#menu li a {
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 50px;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  margin: 10px;
+  border: solid 2px white;
+  border-radius: 50px;
+}
+
+#menu li a:hover {
+  font-family: 'ABeeZee', sans-serif;
+  background: rgb(229, 320, 227);
+  font-size: 50px;
+  color: rgb(35, 39, 54);
+  text-decoration: none;
+  padding: 20px;
+  margin: 10px;
+  border: solid 2px white;
+  border-radius: 50px;
+}
+
+h2 {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  font-family: 'ABeeZee', sans-serif;
+  letter-spacing: 8px;
+  margin: 60px;
+}
+
+h4 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'ABeeZee', sans-serif;
+  letter-spacing: 8px;
+  margin: 60px;
+}
+
+p {
+  background-color: rgb(54, 74, 122);
+  border-radius: 50pt;
+  padding: 20pt;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  font-size: 20pt;
+  line-height: 2em;
+}
+a {
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 50px;
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  width: 300px;
+  padding: 20px;
+  margin: auto;
+  width: 420px;
+  border: solid 2px white;
+  border-radius: 50px;
+}
+a:hover {
+  font-family: 'ABeeZee', sans-serif;
+  background: rgb(229, 320, 227);
+  font-size: 50px;
+  color: rgb(35, 39, 54);
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+  margin: auto;
+  width: 420px;
+  border: solid 2px white;
+  border-radius: 50px;
