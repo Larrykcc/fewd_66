@@ -1,0 +1,31 @@
+header {
+	width: 100%;
+	height: 700px;
+	background-color: red;
+	background-image: url(https://placeimg.com/1000/1000/nature);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.forest img {
+	max-width: 100%;
+}
+
+
+
+
+
+footer ul li {
+	display: inline-block;
+	border: 2px solid green;
+	border-radius: 50px;
+	padding: 10px;
+}
+footer ul li:hover {
+	display: inline;
+	background-color: pink;
+	border: 2px solid green;
+	border-radius: 50px;
+	padding: 10px;
+}
