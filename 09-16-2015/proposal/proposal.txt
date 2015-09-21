@@ -1,0 +1,6 @@
+
+	Website will serve as online presence for visual artist agency promoting artist goods, services and development. Homepage will be simple yet effective--logo, header, main content and footer. Logo will be brand's logo and title. 
+       
+	Header will have nav bar launching more specific pages such as about, contact info, artists and services.Main content includes smooth transitioning slideshow of companies goods and services or artist's work that are clickable to launch more specific page. Footer will include info and more links to info, goods and services.
+       
+	Site will be dynamic and make fluid transitions when being navigated and clicked. Site will be responsive for viewing on mobile.
