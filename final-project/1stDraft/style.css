@@ -1,0 +1,166 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+
+.banner {
+	background: url('img/top_img.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 250px;
+	width: 300px;
+	margin: 0;
+}
+.header {
+	align-items: center;
+	background-color: black;
+	display: flex;
+}
+
+
+	
+
+
+}
+
+.nav {
+	max-width: 700px;
+	text-align: right;
+	width: 100%;
+	
+}
+.nav a{
+	color: white;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 24px;
+	margin: 0 0 0 30px;
+	letter-spacing: 5px;
+	text-decoration :none;
+}
+
+.nav a:hover{
+	border-bottom: 2px solid white;
+	color: white;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 24px;
+	margin: 0 0 0 30px;
+	
+}
+
+.main__content__box {
+	background: url('img/main_section.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	color: white;
+}
+.main__content {
+	padding: 50px;
+	text-shadow: 2px 2px black;
+}
+.main__content h1 {
+	font-size: 60px;
+	letter-spacing: 5px;
+}
+.main__content p {
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+
+footer {
+	background: black;
+	padding: 50px 0;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+footer a {
+	padding: 15px;
+}
+
+
+.banner2 {
+	background: url('img/top_img.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+	height: 250px;
+	width: 300px;
+	margin: 0;
+}
+
+/*pages after homepage*/
+
+.section__ourstory h1,
+.section__artists h1,
+.section__events h1,
+.section__contact h1,
+.section__sponsorship h1 {
+	color: #033048;
+	font-size: 40px;
+	padding: 20px;
+}
+
+.section__ourstory p,
+.section__artists p,
+.section__events p,
+.section__contact p,
+.section__sponsorship p {
+	color: #606161;
+	font-size: 18px;
+	padding: 20px;
+}
+
+.section__ourstory p:first-letter,
+.section__artists p:first-letter,
+.section__events p:first-letter,
+.section__contact p:first-letter,
+.section__sponsorship p:first-letter {
+  float: left; 
+  font-size: 60px; 
+  line-height: 0.7; 
+  padding-top: 4px; 
+  padding-right: 8px; 
+  padding-left: 0;
+}
+
+/*contactform*/ 
+.contact__form {
+	color: #033048;
+	font-size: 24px;
+	padding: 20px;
+	
+}
+
+
+
+
+/*@media screen and (max-width: 768px) {
+  .main,
+  .header {
+    flex-direction: column;
+  }  
+  .nav {
+    text-align: center;
+  }
+
+  .logo {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .nav a {
+    margin: 0 20px;
+  }
+}
+
