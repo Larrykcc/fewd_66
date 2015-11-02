@@ -1,0 +1,270 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+
+.banner {
+	background: url('../img/logowhite.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100px;
+	width: 100px;
+	padding: 20px 20px 0 20px;
+	margin: 20px;
+}
+.header {
+	align-items: center;
+	background-color: black;
+	display: flex;
+}
+
+
+	
+
+
+}
+
+.nav {
+	max-width: 700px;
+	text-align: right;
+	width: 100%;
+	
+}
+.nav a{
+	color: white;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 24px;
+	margin: 0 0 0 30px;
+	letter-spacing: 5px;
+	text-decoration :none;
+}
+
+.nav a:hover{
+	border-bottom: 2px solid white;
+	color: white;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 24px;
+	margin: 0 0 0 30px;
+	
+}
+
+.main__content__box {
+	background: url('../img/main_section.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	color: white;
+}
+.main__content {
+	padding: 50px;
+	text-shadow: 2px 2px black;
+}
+.main__content h1 {
+	font-size: 60px;
+	letter-spacing: 5px;
+}
+.main__content p {
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+
+footer {
+	background: black;
+	padding: 50px 0;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+footer a {
+	padding: 15px;
+}
+
+
+.banner2 {
+	background: url('../img/top_img.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+	height: 250px;
+	width: 300px;
+	margin: 0;
+}
+
+/*pages after homepage*/
+.section__ourstory ,
+.section__artists ,
+
+.section__contact ,
+.section__sponsorship {
+	background: url('../img/sponsorshipbackground.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	padding: 20px;
+}
+
+.section__ourstory h1,
+.section__artists h1,
+.section__events h1,
+.section__contact h1,
+.section__sponsorship h1 {
+	color: #033048;
+	font-size: 40px;
+	padding: 20px;
+}
+
+.section__ourstory p,
+.section__artists p,
+.section__events p,
+.section__contact p,
+.section__sponsorship p {
+	color: #606161;
+	font-size: 18px;
+	padding: 20px;
+}
+
+.section__ourstory p:first-letter,
+.section__artists p:first-letter,
+.section__events p:first-letter,
+.section__contact p:first-letter,
+.section__sponsorship p:first-letter {
+  float: left; 
+  font-size: 60px; 
+  line-height: 0.7; 
+  padding-top: 4px; 
+  padding-right: 8px; 
+  padding-left: 0;
+}
+.section__events {
+	 background-image: url('../img/street.jpg');
+	 background-size: cover;
+	 padding: 20px 0 20px 0;
+}
+
+/*events slider*/
+
+.events__slider {
+    background-size: cover;
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    
+
+
+}
+
+.events__slider .events__one {
+    background-image: url('../img/eventspic1.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 542px;
+    background-size: cover;
+}
+
+.events__slider .events__two {
+    background-image: url('../img/eventspic2.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 542px;
+    background-size: cover;
+}
+
+.events__slider .events__three {
+    background-image: url('../img/eventspic3.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 542px;
+    background-size: cover;
+}
+
+.events__slider .events__four{
+    background-image: url('../img/eventspic4.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 542px;
+    background-size: cover;
+}
+
+.events__slider .events__five{
+    background-image: url('../img/eventspic5.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 542px;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+/*contactform*/ 
+.contact__form {
+	color: #033048;
+	font-size: 24px;
+	padding: 20px;
+	width: 100%;
+    height: 500px;
+	
+}
+
+/*contact*/
+.form-item > * {
+    width: 100%;
+    padding: 10px;
+}
+
+.form-item {
+    margin: 10px 0;
+    width: 100%;
+}
+
+form label.error {
+    color: red;
+    font-size: 9px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*sponsorship image*/
+
+
+
+
+
+.sponsorshipimg {
+	float: right;
+	margin: 0 20px 20px 20px;
+	box-shadow: 10px 10px 5px #888888;
+	border-radius: 50%;
+}
+
+
+
+
+/.*@media screen and (max-width: 768px) {
+  .main,
+  .header {
+    flex-direction: column;
+  }  
+  .nav {
+    text-align: center;
+  }
+
+  .logo {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .nav a {
+    margin: 0 20px;
+  }
+}
+
